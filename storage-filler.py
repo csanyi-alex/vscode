@@ -1,5 +1,5 @@
 try:
-    size = int(input("How big do u want it to be? (might crash potato PCs)"))
+    size = int(input("How big do u want it to be? 0 - 9,223,372,036,854,775,807 (might crash potato PCs)"))
 
 except:
     print ("Value error ._.")
