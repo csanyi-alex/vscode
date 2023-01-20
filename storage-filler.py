@@ -7,5 +7,5 @@ except:
 filler = open("text.txt", "a")
 
 for i in range(0,size):
-    filler.write(str(123456**i))
+    filler.write(str(123456789101112**i))
     filler.flush()
